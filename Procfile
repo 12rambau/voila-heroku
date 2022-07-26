@@ -1,1 +1,1 @@
-web: voila --port=$PORT --Voila.ip=0.0.0.0 --no-browser --template=material --enable_nbextensions=True notebooks/bqplot.ipynb
+web: voila --Voila.ip=0.0.0.0 --port=$PORT --no-browser --show_tracebacks=True notebooks/bqplot.ipynb
